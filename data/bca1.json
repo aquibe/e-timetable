@@ -1,0 +1,195 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"Discrete Mathematics",
+            "shortname":"DM",
+            "teacher":"Lulu Farsana",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"Mathematical Foundation of Computer...",
+            "shortname":"MFCA",
+            "teacher":"Faseela",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgzNDY0MjMx?cjc=ixuh2br"
+        },
+        "h5":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTc5NTcyNjc3?cjc=pzzx3em"
+        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Mathematical Foundation of Computer...",
+            "shortname":"MFCA",
+            "teacher":"Faseela",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Classroom",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h5":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTY5Mzc5Mzg2?cjc=3pgxlk7"
+        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"Discrete Mathematics",
+            "shortname":"DM",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgxNzIwNDM5?cjc=ephtqte"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTc5NTcyNjc3?cjc=pzzx3em"
+        },
+        "h5":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNzYxODk2?cjc=iyxm4ld"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Discrete Mathematics",
+            "shortname":"DM",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgxNzIwNDM5?cjc=ephtqte"
+        },
+        "h2":{
+            "fullname":"Mathematical Foundation of Computer...",
+            "shortname":"MFCA",
+            "teacher":"Faseela",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h4":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Classroom",
+            "link":"#lang"
+        },
+        "h5":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNzYxODk2?cjc=iyxm4ld"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"Mathematical Foundation of Computer...",
+            "shortname":"MFCA",
+            "teacher":"Faseela",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgzNDY0MjMx?cjc=ixuh2br"
+        },
+        "h3":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h4":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTY5Mzc5Mzg2?cjc=3pgxlk7"
+        },
+        "h5":{
+            "fullname":"Discrete Mathematics",
+            "shortname":"DM",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgxNzIwNDM5?cjc=ephtqte"
+        }
+    },
+    "lang":{
+        "available":"yes"
+    }
+}

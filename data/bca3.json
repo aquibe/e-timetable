@@ -1,0 +1,195 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomson ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Software Testing",
+            "shortname":"ST",
+            "teacher":"Alka Mohan",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA5OTU1NTg1?cjc=ykfk5ly"
+        },
+        "h4":{
+            "fullname":"Project",
+            "shortname":"PRO",
+            "teacher":"Mansoor",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNDUzMTgz?cjc=ghmxi3z"
+        },
+        "h5":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Project",
+            "shortname":"PRO",
+            "teacher":"Mansoor",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNDUzMTgz?cjc=ghmxi3z"
+        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Software Testing",
+            "shortname":"ST",
+            "teacher":"Alka Mohan",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Project",
+            "shortname":"PRO",
+            "teacher":"Mansoor",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNDUzMTgz?cjc=ghmxi3z"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        },
+        "h2":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Software Testing",
+            "shortname":"ST",
+            "teacher":"Alka Mohan",
+            "platform":"Meet",
+            "link":""
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"HANEESH K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h3":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        },
+        "h4":{
+            "fullname":"Software Testing",
+            "shortname":"ST",
+            "teacher":"Alka Mohan",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA5OTU1NTg1?cjc=ykfk5ly"
+        },
+        "h5":{
+            "fullname":"Add on Course",
+            "shortname":"Add.",
+            "teacher":"",
+            "platform":"Classroom",
+            "link":""
+        }
+    },
+    "lang":{
+        "available":"no"
+    }
+}

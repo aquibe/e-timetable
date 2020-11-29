@@ -1,0 +1,94 @@
+body {
+  background-color: #051428;
+}
+
+.App {
+  background-color: lightsteelblue;
+}
+
+.AppBar {
+  background-color: #051428;
+  padding: 10px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.classname {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.heading-secondary {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.today {
+  margin-top: 20px;
+}
+.today-card {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.card-left {
+  padding-top: 10px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 70px;
+}
+
+.card-right {
+  height: 70px;
+  background-color: white;
+  padding-top: 18px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.time {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.teacher {
+  font-size: 14px;
+}
+.subject {
+  font-size: 16px;
+  font-weight: 600;
+}
+.linkbtn {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+/* for active hour */
+.ac {
+  background-color: green;
+  color: white;
+}
+
+/* table */
+.timetable {
+  margin-top: 15px;
+}
+.table-custom {
+  background-color: white;
+
+  border-radius: 10px;
+}
+.h {
+  font-weight: 500;
+  text-align: center;
+}
+.d {
+}

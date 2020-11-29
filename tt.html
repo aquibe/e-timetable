@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title></title>
+ 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/tt.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+  <div class="container App col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4" id="appScreen" style="display: none;">
+    <!--AppBar starts-->
+    <div class="row AppBar">
+      <div class="col-xs-12">
+        <p class="classname" id="classname"></p>
+      </div>     
+    </div>
+    <!--AppBar ends-->
+
+    <!--today starts-->
+    <div class="row today ">
+      <div class="col-xs-12 ">
+        <p class="heading-secondary">Today</p>
+      </div>
+      <!--today cards-->
+      <div class="today-cards" id="today-cards">
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-8 card-left" id="cardleft1">
+            <p class="subject" id="todaySub1">Loading....</p>
+            <p class="teacher" id="todaytech1">Loading....</p>
+          </div>
+          <div class="col-xs-4 card-right" id="cardright1">
+            <a href="" id="todayLink1"><button class="btn linkbtn" >Join</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-8 card-left" id="cardleft2" >
+            <p class="subject" id="todaySub2">Loading....</p>
+            <p class="teacher" id="todaytech2">Loading....</p>
+          </div>
+          <div class="col-xs-4 card-right" id="cardright2" >
+            <a href="" id="todayLink2"><button class="btn linkbtn" >Join</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-8 card-left" id="cardleft3" >
+            <p class="subject" id="todaySub3">Loading....</p>
+            <p class="teacher" id="todaytech3">Loading....</p>
+          </div>
+          <div class="col-xs-4 card-right" id="cardright3" >
+            <a href="" id="todayLink3"><button class="btn linkbtn">Join</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-8 card-left " id="cardleft4" >
+            <p class="subject" id="todaySub4">Loading....</p>
+            <p class="teacher" id="todaytech4">Loading....</p>
+          </div>
+          <div class="col-xs-4 card-right " id="cardright4" >
+            <a href="" id="todayLink4"><button class="btn linkbtn" >Join</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-8 card-left" id="cardleft5" >
+            <p class="subject" id="todaySub5">Loading....</p>
+            <p class="teacher" id="todaytech5">Loading....</p>
+          </div>
+          <div class="col-xs-4 card-right" id="cardright5" >
+            <a href="" id="todayLink5"><button class="btn linkbtn" >Join</button></a>
+          </div>
+        </div>
+      </div>
+     
+      <div id="no-class" class="col-xs-12 today-card">
+        <div style="border-radius: 20px;background-color: white;padding: 10px;height: 50px;text-align: center;"><p style="font-size: 20px;font-weight: 500;">No class today</p></div>
+      </div>
+    </div>
+    <!--today ends-->
+
+    <!--table starts-->
+    <div class="row timetable" style="padding-bottom: 25px;">
+      <div class="col-xs-12" >
+        <p class="heading-secondary" >Timetable</p>
+      </div>
+      <div class="col-xs-12" style="overflow-x: auto;">
+        <table class="col-xs-12 table table-custom table-scrolable ">
+          <tr>
+            <td class="h"></th>
+            <td class="h">1</th>
+            <td class="h">2</th>
+            <td class="h">3</th>
+            <td class="h">4</th>
+            <td class="h">5</th>
+          </tr>
+
+          <tr>
+            <td class="h">Mon</th>
+            <td class="d" id="s1"></th>
+            <td class="d" id="s2"></th>
+            <td class="d" id="s3"></th>
+            <td class="d" id="s4"></th>
+            <td class="d" id="s5"></th>
+          </tr>
+
+          <tr>
+            <td class="h">Tue</th>
+            <td class="d" id="s6"></th>
+            <td class="d" id="s7"></th>
+            <td class="d" id="s8"></th>
+            <td class="d" id="s9"></th>
+            <td class="d" id="s10"></th>
+          </tr>
+
+          <tr>
+            <td class="h">Wed</th>
+            <td class="d" id="s11"></th>
+            <td class="d" id="s12"></th>
+            <td class="d" id="s13"></th>
+            <td class="d" id="s14"></th>
+            <td class="d" id="s15"></th>
+          </tr>
+
+          <tr>
+            <td class="h">Thu</th>
+            <td class="d" id="s16"></th>
+            <td class="d" id="s17"></th>
+            <td class="d" id="s18"></th>
+            <td class="d" id="s19"></th>
+            <td class="d" id="s20"></th>
+          </tr>
+
+          <tr>
+            <td class="h">Fri</th>
+            <td class="d" id="s21"></th>
+            <td class="d" id="s22"></th>
+            <td class="d" id="s23"></th>
+            <td class="d" id="s24"></th>
+            <td class="d" id="s25"></th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--table ends-->
+
+    <!--language starts-->
+    <div class="row languages" id="languages" style="padding-bottom: 25px;">
+      <a name="lang">
+        <div class="col-xs-12 ">
+          <p class="heading-secondary">Languages</p>
+        </div>
+      </a>
+      <!--language cards-->
+      <div class="today-cards" id="lang-cards">
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft1" style="background-color:#8b93dd;">
+            <p class="subject" id="malayalam"  style="padding-top: 12px;">Malayalam</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href="https://classroom.google.com/c/MjMwMTgxOTQzMjQ3?cjc=7wr5l3u"><button class="btn linkbtn" id="malayalamc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4 card-right" id="lcardright1" style="background-color: #8b93dd;">
+            <a href="https://meet.google.com/fdo-hntq-zcv"><button class="btn linkbtn" id="malayalam-link">Meet</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft2" style="background-color: #8b93dd;">
+            <p class="subject" id="hindi"  style="padding-top: 12px;">Hindi</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href="https://classroom.google.com/c/MjA3MDU0ODc4MTc4?cjc=sfae5l5"><button class="btn linkbtn" id="hindic-link">GC</button></a>
+          </div>
+          <div class="col-xs-4 card-right" id="lcardright2" style="background-color: #8b93dd;">
+            <a href="https://meet.google.com/gnw-byjd-vgy"><button class="btn linkbtn" id="hindim-link">Meet</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft3" style="background-color: #8b93dd;">
+            <p class="subject" id="arabic" style="padding-top: 12px;">Arabic</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href="https://classroom.google.com/c/MjMwMTgwODk3OTEw?cjc=stibpgt"><button class="btn linkbtn" id="arabicc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4  card-right" id="lcardright3" style="background-color: #8b93dd;">
+            <a href="https://meet.google.com/vzs-yrzd-yjd"><button class="btn linkbtn" id="arabicm-link">Meet</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--language ends-->
+
+    <!--credit-->
+    <div class="row" style="background-color: #051428;">
+      <div class="col-xs-12" style="padding-top: 18px;text-align: center;padding-bottom: 18px;">
+        <p style="color: white;font-size: 18px;">Open Source project by DCSA-SIAS</p>
+        <br>
+        <a href=""><p style="color: white;text-align: center;font-size: 15px;" class="btn">Download Source Code</p></a>
+        
+      </div>
+    </div>
+    <!--credit-->
+  </div>
+  <div class="container" id="loading">
+    <p style="font-size: 30px;color: white;text-align: center;margin-top: 50%;">Loading..</p>
+    <p style="font-size: 30px;color: white;text-align: center;">Please Wait</p>
+
+  </div>
+
+  <!--javascript-->
+  <script lang="javascript">
+  var url;
+  start();
+  function start(){
+    console.log('start');
+    setClassName();
+    let d =new Date;
+    let day = d.getDay();
+    if((day>=0)&&(day<6)){
+      weekday();
+      getToday(1);      
+    }else{
+      holiday();
+      getTimetable();
+    }
+  }
+
+  function getToday(day){
+    console.log('getToday');
+    
+    let req = new Request(url);
+    fetch(req)
+    .then(function (resp){
+      console.log('data fetched');
+      return resp.json();
+    })
+    .then(function (data){
+      console.log('data converted');
+      if(data.lang.available == 'no'){
+        hideLanguage();
+      }
+      switch(day){
+      case 1 :  document.getElementById('todaySub1').innerText = data.monday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.monday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.monday.h1.link);
+                document.getElementById('todaySub2').innerText = data.monday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.monday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.monday.h2.link);
+                document.getElementById('todaySub3').innerText = data.monday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.monday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.monday.h3.link);
+                document.getElementById('todaySub4').innerText = data.monday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.monday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.monday.h4.link);
+                document.getElementById('todaySub5').innerText = data.monday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.monday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.monday.h5.link);
+                break;
+      case 2 :  document.getElementById('todaySub1').innerText = data.tuesday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.tuesday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.tuesday.h1.link);
+                document.getElementById('todaySub2').innerText = data.tuesday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.tuesday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.tuesday.h2.link);
+                document.getElementById('todaySub3').innerText = data.tuesday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.tuesday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.tuesday.h3.link);
+                document.getElementById('todaySub4').innerText = data.tuesday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.tuesday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.tuesday.h4.link);
+                document.getElementById('todaySub5').innerText = data.tuesday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.tuesday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.tuesday.h5.link);
+                break;
+      case 3 :  document.getElementById('todaySub1').innerText = data.wednessday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.wednessday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.wednessday.h1.link);
+                document.getElementById('todaySub2').innerText = data.wednessday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.wednessday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.wednessday.h2.link);
+                document.getElementById('todaySub3').innerText = data.wednessday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.wednessday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.wednessday.h3.link);
+                document.getElementById('todaySub4').innerText = data.wednessday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.wednessday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.wednessday.h4.link);
+                document.getElementById('todaySub5').innerText = data.wednessday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.wednessday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.wednessday.h5.link);
+                break;
+      case 4 :  document.getElementById('todaySub1').innerText = data.thursday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.thursday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.thursday.h1.link);
+                document.getElementById('todaySub2').innerText = data.thursday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.thursday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.thursday.h2.link);
+                document.getElementById('todaySub3').innerText = data.thursday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.thursday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.thursday.h3.link);
+                document.getElementById('todaySub4').innerText = data.thursday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.thursday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.thursday.h4.link);
+                document.getElementById('todaySub5').innerText = data.thursday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.thursday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.thursday.h5.link);break;
+      case 5 :  document.getElementById('todaySub1').innerText = data.friday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.friday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.friday.h1.link);
+                document.getElementById('todaySub2').innerText = data.friday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.friday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.friday.h2.link);
+                document.getElementById('todaySub3').innerText = data.friday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.friday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.friday.h3.link);
+                document.getElementById('todaySub4').innerText = data.friday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.friday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.friday.h4.link);
+                document.getElementById('todaySub5').innerText = data.friday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.friday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.friday.h5.link);
+                break;
+     }
+
+    document.getElementById('s1').innerText = data.monday.h1.shortname;
+    document.getElementById('s2').innerText = data.monday.h2.shortname;
+    document.getElementById('s3').innerText = data.monday.h3.shortname;
+    document.getElementById('s4').innerText = data.monday.h4.shortname;
+    document.getElementById('s5').innerText = data.monday.h5.shortname;
+
+    document.getElementById('s6').innerText = data.tuesday.h1.shortname;
+    document.getElementById('s7').innerText = data.tuesday.h2.shortname;
+    document.getElementById('s8').innerText = data.tuesday.h3.shortname;
+    document.getElementById('s9').innerText = data.tuesday.h4.shortname;
+    document.getElementById('s10').innerText = data.tuesday.h5.shortname;
+
+    document.getElementById('s11').innerText = data.wednessday.h1.shortname;
+    document.getElementById('s12').innerText = data.wednessday.h2.shortname;
+    document.getElementById('s13').innerText = data.wednessday.h3.shortname;
+    document.getElementById('s14').innerText = data.wednessday.h4.shortname;
+    document.getElementById('s15').innerText = data.wednessday.h5.shortname;
+
+    document.getElementById('s16').innerText = data.thursday.h1.shortname;
+    document.getElementById('s17').innerText = data.thursday.h2.shortname;
+    document.getElementById('s18').innerText = data.thursday.h3.shortname;
+    document.getElementById('s19').innerText = data.thursday.h4.shortname;
+    document.getElementById('s20').innerText = data.thursday.h5.shortname;
+
+    document.getElementById('s21').innerText = data.friday.h1.shortname;
+    document.getElementById('s22').innerText = data.friday.h2.shortname;
+    document.getElementById('s23').innerText = data.friday.h3.shortname;
+    document.getElementById('s24').innerText = data.friday.h4.shortname;
+    document.getElementById('s25').innerText = data.friday.h5.shortname;
+    
+    loadComplete();
+    });
+    loadComplete();
+    onGoing();
+  }
+
+  function getTimetable(){
+    console.log('getTimetable');
+    let req = new Request(url);
+    fetch(req)
+    .then(function (resp){
+      console.log('data fetched');
+      return resp.json();
+    })
+    .then(function (data){
+      console.log('data converted');
+
+    document.getElementById('s1').innerText = data.monday.h1.shortname;
+    document.getElementById('s2').innerText = data.monday.h2.shortname;
+    document.getElementById('s3').innerText = data.monday.h3.shortname;
+    document.getElementById('s4').innerText = data.monday.h4.shortname;
+    document.getElementById('s5').innerText = data.monday.h5.shortname;
+
+    document.getElementById('s6').innerText = data.tuesday.h1.shortname;
+    document.getElementById('s7').innerText = data.tuesday.h2.shortname;
+    document.getElementById('s8').innerText = data.tuesday.h3.shortname;
+    document.getElementById('s9').innerText = data.tuesday.h4.shortname;
+    document.getElementById('s10').innerText = data.tuesday.h5.shortname;
+
+    document.getElementById('s11').innerText = data.wednessday.h1.shortname;
+    document.getElementById('s12').innerText = data.wednessday.h2.shortname;
+    document.getElementById('s13').innerText = data.wednessday.h3.shortname;
+    document.getElementById('s14').innerText = data.wednessday.h4.shortname;
+    document.getElementById('s15').innerText = data.wednessday.h5.shortname;
+
+    document.getElementById('s16').innerText = data.thursday.h1.shortname;
+    document.getElementById('s17').innerText = data.thursday.h2.shortname;
+    document.getElementById('s18').innerText = data.thursday.h3.shortname;
+    document.getElementById('s19').innerText = data.thursday.h4.shortname;
+    document.getElementById('s20').innerText = data.thursday.h5.shortname;
+
+    document.getElementById('s21').innerText = data.friday.h1.shortname;
+    document.getElementById('s22').innerText = data.friday.h2.shortname;
+    document.getElementById('s23').innerText = data.friday.h3.shortname;
+    document.getElementById('s24').innerText = data.friday.h4.shortname;
+    document.getElementById('s25').innerText = data.friday.h5.shortname;
+      loadComplete();
+    });
+      
+  }
+
+  function setClassName(){
+    let u= window.location.href;
+    let classname = u.slice(u.search('classname')+10,u.search('classname')+13);
+    console.log('classname : '+ classname);
+    let year = u.slice(u.search('year')+5,u.search('year')+7);
+    console.log('year : '+ year);
+    
+    url = 'https://aquibe.github.io/e-time/data/'+classname+year+'.json';
+    console.log(url);
+    if((classname=='bcs')&&(year=='1')){
+      document.getElementById('classname').innerText='BSc CS - 1';
+    }else if((classname=='bcs')&&(year=='2')){
+      document.getElementById('classname').innerText='BSc CS - 4';
+    }else if((classname=='bcs')&&(year=='3')){
+      document.getElementById('classname').innerText='BSc CS - 6';
+    }else if((classname=='bca')&&(year=='1')){
+      document.getElementById('classname').innerText='BCA - 1';
+    }else if((classname=='bca')&&(year=='2')){
+      document.getElementById('classname').innerText='BCA - 4';
+    }else if((classname=='bca')&&(year=='3')){
+      document.getElementById('classname').innerText='BCA - 6';
+    }else{
+      document.getElementById('classname').innerText='Invalid';
+    }
+
+  }
+  function onGoing(){
+    console.log('ongoing');
+    let dt =new Date;
+    let day = dt.getDay();
+    let hour = dt.getHours();
+    let minute = dt.getMinutes();
+    if(minute<10){
+      minute=10;
+    }
+    let time = hour+''+minute;
+    if((day>0)&&(day<5)){
+      if((time>929)&&(time<1031)){
+        hr1();
+      }else if((time>1029)&&(time<1131)){
+        hr2();
+      }else if((time>1129)&&(time<1231)){
+        hr3();
+      }else if((time>1229)&&(time<1331)){
+        hr4();
+      }else if((time>1400)&&(time<1501)){
+        hr5();
+      }else{
+        noHour();
+      }
+    }else if(day==5){
+      if((time>929)&&(time<1031)){
+        hr1();
+      }else if((time>1029)&&(time<1131)){
+        hr2();
+      }else if((time>1129)&&(time<1231)){
+        hr3();
+      }else if((time>1329)&&(time<1501)){
+        hr4();
+      }else if((time>1429)&&(time<1601)){
+        hr5();
+      }else{
+        noHour();
+      }
+    }
+    
+    setTimeout(() => {
+      onGoing();
+    }, 10000);
+  }
+  
+
+
+  function loadComplete(){
+    console.log('load complete');
+    document.getElementById('loading').style.display="none";
+    document.getElementById('appScreen').style.display="block";
+  }
+  //hours
+  function noHour(){
+    console.log('no hour');
+    document.getElementById('cardleft1').classList.remove('ac');
+    document.getElementById('cardright1').classList.remove('ac');
+    document.getElementById('cardleft2').classList.remove('ac');
+    document.getElementById('cardright2').classList.remove('ac');
+    document.getElementById('cardleft3').classList.remove('ac');
+    document.getElementById('cardright3').classList.remove('ac');
+    document.getElementById('cardleft4').classList.remove('ac');
+    document.getElementById('cardright4').classList.remove('ac');
+    document.getElementById('cardleft5').classList.remove('ac');
+    document.getElementById('cardright5').classList.remove('ac');
+  }
+  function hr1(){
+    console.log('hr1');
+    noHour();
+    document.getElementById('cardleft1').classList.add('ac');
+    document.getElementById('cardright1').classList.add('ac');
+  }
+  function hr2(){
+    console.log('hr2');
+    noHour();
+    document.getElementById('cardleft2').classList.add('ac');
+    document.getElementById('cardright2').classList.add('ac');
+  }
+  function hr3(){
+    console.log('hr3');
+    noHour();
+    document.getElementById('cardleft3').classList.add('ac');
+    document.getElementById('cardright3').classList.add('ac');
+  }
+  function hr4(){
+    console.log('hr4');
+    noHour();
+    document.getElementById('cardleft4').classList.add('ac');
+    document.getElementById('cardright4').classList.add('ac');
+  }
+  function hr5(){
+    console.log('hr5');
+    noHour();
+    document.getElementById('cardleft5').classList.add('ac');
+    document.getElementById('cardright5').classList.add('ac');
+  }
+
+  //hide divs
+  function hideLanguage(){
+    console.log('hide languages');
+    document.getElementById('languages').style.display="none";
+  }
+  function holiday(){
+    console.log('holiday');
+    document.getElementById('today-cards').style.display="none";
+    document.getElementById('languages').style.display="none";
+  }
+  function weekday(){
+    console.log('weekday');
+    document.getElementById('no-class').style.display="none";
+  }   
+  </script>
+</body>
+
+</html>

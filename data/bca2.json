@@ -1,0 +1,195 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"E-Commerce",
+            "shortname":"ECOM",
+            "teacher":"Alka Mohan",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h2":{
+            "fullname":"Data Communications & Fiber Optics",
+            "shortname":"DCF",
+            "teacher":"Arshad PT",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h3":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        },
+        "h4":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA4NDc5NDUz?cjc=eseuxod"
+        },
+        "h5":{
+            "fullname":"Microprocessors and Architecture",
+            "shortname":"MP",
+            "teacher":"Abdul Samad",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTYyODYxMDg3?cjc=prypngb"
+        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h2":{
+            "fullname":"Microprocessors and Architecture",
+            "shortname":"MP",
+            "teacher":"Abdul Samad",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h3":{
+            "fullname":"E-Commerce",
+            "shortname":"ECOM",
+            "teacher":"Alka Mohan",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTk0MjQ3NjU0?cjc=yil5xw3"
+        },
+        "h4":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA4NDc5NDUz?cjc=eseuxod"
+        },
+        "h5":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"Data Communications & Fiber Optics",
+            "shortname":"DCF",
+            "teacher":"Arshad PT",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h2":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h3":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h4":{
+            "fullname":"E-Commerce",
+            "shortname":"ECOM",
+            "teacher":"Alka Mohan",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTk0MjQ3NjU0?cjc=yil5xw3"
+        },
+        "h5":{
+            "fullname":"Microprocessors and Architecture",
+            "shortname":"MP",
+            "teacher":"Manju S Thomas",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTYyODYxMDg3?cjc=prypngb"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Microprocessors and Architecture",
+            "shortname":"MP",
+            "teacher":"Manju S Thomas",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h2":{
+            "fullname":"E-Commerce",
+            "shortname":"ECOM",
+            "teacher":"Alka Mohan",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTk0MjQ3NjU0?cjc=yil5xw3"
+        },
+        "h3":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h4":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA4NDc5NDUz?cjc=eseuxod"
+        },
+        "h5":{
+            "fullname":"Data Communications & Fiber Optics",
+            "shortname":"DCF",
+            "teacher":"Arshad PT",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTg5Njc4ODgw?cjc=76tjoal"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"Database Management System",
+            "shortname":"DBMS",
+            "teacher":"Arshad PT",
+            "platform":"Google Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h2":{
+            "fullname":"Add-On",
+            "shortname":"Add.",
+            "teacher":"",
+            "platform":"",
+            "link":""
+        },
+        "h3":{
+            "fullname":"Data Communications & Fiber Optics",
+            "shortname":"DCF",
+            "teacher":"Arshad PT",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTg5Njc4ODgw?cjc=76tjoal"
+        },
+        "h4":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        },
+        "h5":{
+            "fullname":"E-Commerce",
+            "shortname":"ECOM",
+            "teacher":"Alka Mohan",
+            "platform":"Google Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTk0MjQ3NjU0?cjc=yil5xw3"
+        }
+    },
+    "lang":{
+        "available":"no"
+    }
+}

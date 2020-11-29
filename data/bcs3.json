@@ -1,0 +1,195 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomson ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        },
+        "h4":{
+            "fullname":"Project",
+            "shortname":"PRO",
+            "teacher":"Mansoor",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNDUzMTgz?cjc=ghmxi3z"
+        },
+        "h5":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h3":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Project",
+            "shortname":"PRO",
+            "teacher":"Mansoor",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNDUzMTgz?cjc=ghmxi3z"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjExODU0MzIx?cjc=3jkya72"
+        },
+        "h2":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h3":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Meet",
+            "link":"https://meet.google.com/job-itmm-tcq"
+        },
+        "h4":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h5":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"Computer Networks",
+            "shortname":"CN",
+            "teacher":"HANEESH K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/asz-nhuu-eer"
+        },
+        "h2":{
+            "fullname":"Operating System",
+            "shortname":"OS",
+            "teacher":"Manju S Thomas",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA1MzM5ODM3?cjc=fhzdops"
+        },
+        "h3":{
+            "fullname":"Android Programming",
+            "shortname":"AND",
+            "teacher":"Divya",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjEwNjY1MTY3?cjc=2iwa2rt"
+        },
+        "h4":{
+            "fullname":"Computer Graphics",
+            "shortname":"CG",
+            "teacher":"Abdul Samad",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjIyODMzNzgwODAw?cjc=sqh6g3c"
+        },
+        "h5":{
+            "fullname":"Add on Course",
+            "shortname":"Add.",
+            "teacher":"",
+            "platform":"Classroom",
+            "link":""
+        }
+    },
+    "lang":{
+        "available":"no"
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"Statistics",
+            "shortname":"STAT",
+            "teacher":"Radhika",
+            "platform":"Meet",
+            "link":"https://meet.google.com/vhj-gfjt-wze"
+        },
+        "h2":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Meet",
+            "link": "#lang"   
+        },
+        "h4":{
+            "fullname":"Mathematics",
+            "shortname":"MAT",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNjU1OTg4?cjc=azcjt5f"
+        },
+        "h5":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTc5NTcyNjc3?cjc=pzzx3em"
+        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Mathematics",
+            "shortname":"MAT",
+            "teacher":"Lulu Farsana",
+            "platform":"Meet",
+            "link":"https://meet.google.com/vhj-gfjt-wze"
+        },
+        "h2":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Classroom",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTcyNjMyOTA3?cjc=j4caoac"
+        },
+        "h5":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTc5NTcyNjc3?cjc=pzzx3em"
+        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"Statistics",
+            "shortname":"STAT",
+            "teacher":"Radhika",
+            "platform":"Meet",
+            "link":"https://meet.google.com/vhj-gfjt-wze"
+        },
+        "h3":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTc5NTcyNjc3?cjc=pzzx3em"
+        },
+        "h5":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNzYxODk2?cjc=iyxm4ld"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Statistics",
+            "shortname":"STAT",
+            "teacher":"Radhika",
+            "platform":"Meet",
+            "link":"https://meet.google.com/vhj-gfjt-wze"
+        },
+        "h2":{
+            "fullname":"Mathematics",
+            "shortname":"MAT",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNjU1OTg4?cjc=azcjt5f"
+        },
+        "h3":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h4":{
+            "fullname":"Second Language",
+            "shortname":"LANG",
+            "teacher":"Malayalam , Arabic , Hindi",
+            "platform":"Classroom",
+            "link":"#lang"
+        },
+        "h5":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNzYxODk2?cjc=iyxm4ld"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"English - Transactions",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"Mathematics",
+            "shortname":"MAT",
+            "teacher":"Lulu Farsana",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTgyNjU1OTg4?cjc=azcjt5f"
+        },
+        "h3":{
+            "fullname":"English - Ways with Words",
+            "shortname":"ENG",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h4":{
+            "fullname":"Computer Fundamentals & HTML",
+            "shortname":"FCH",
+            "teacher":"Haneesh K P",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMTcyNjMyOTA3?cjc=j4caoac"
+        },
+        "h5":{
+            "fullname":"Statistics",
+            "shortname":"STAT",
+            "teacher":"Radhika",
+            "platform":"Classroom",
+            "link":"https://classroom.google.com/c/MjMwMjA5OTc2MTk4?cjc=szi5ue3"
+        }
+    },
+    "lang":{
+        "available":"yes"
+    }
+}
