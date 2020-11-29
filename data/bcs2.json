@@ -5,35 +5,35 @@
             "fullname":"Statistics",
             "shortname":"STATI",
             "teacher":"Nazreen Moosa",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h2":{
             "fullname":"Data Communications & Fiber Optics",
             "shortname":"DCF",
             "teacher":"Arshad PT",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/job-itmm-tcq"
         },
         "h3":{
             "fullname":"Mathematics",
             "shortname":"MAT",
             "teacher":"Lulu Farsana C.O",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjEwMjM3NzEx?cjc=ntjske6"
         },
         "h4":{
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA3Mzg3NTg0?cjc=qttb4gg"
         },
         "h5":{
             "fullname":"Microprocessors and Architecture",
             "shortname":"MP",
             "teacher":"Abdul Samad",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMTYyODYxMDg3?cjc=prypngb"
         }
     },
@@ -43,35 +43,35 @@
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h2":{
             "fullname":"Microprocessors and Architecture",
             "shortname":"MP",
             "teacher":"Abdul Samad",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/job-itmm-tcq"
         },
         "h3":{
             "fullname":"Statistics",
             "shortname":"STATI",
             "teacher":"Nazreen Moosa",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA5OTc2MTk4?cjc=szi5ue3"
         },
         "h4":{
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA3Mzg3NTg0?cjc=qttb4gg"
         },
         "h5":{
             "fullname":"Mathematics",
             "shortname":"MAT",
             "teacher":"Lulu Farsana C.O",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjEwMjM3NzEx?cjc=ntjske6"
         }
     },
@@ -81,35 +81,35 @@
             "fullname":"Data Communications & Fiber Optics",
             "shortname":"DCF",
             "teacher":"Arshad PT",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/job-itmm-tcq"
         },
         "h2":{
             "fullname":"Statistics",
             "shortname":"STATI",
             "teacher":"Nazreen Moosa",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h3":{
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h4":{
             "fullname":"Mathematics",
             "shortname":"MAT",
             "teacher":"Lulu Farsana C.O",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjEwMjM3NzEx?cjc=ntjske6"
         },
         "h5":{
             "fullname":"Microprocessors and Architecture",
             "shortname":"MP",
             "teacher":"Manju S Thomas",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMTYyODYxMDg3?cjc=prypngb"
         }
     },
@@ -119,35 +119,35 @@
             "fullname":"Microprocessors and Architecture",
             "shortname":"MP",
             "teacher":"Manju S Thomas",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/job-itmm-tcq"
         },
         "h2":{
             "fullname":"Statistics",
             "shortname":"STATI",
             "teacher":"Nazreen Moosa",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA5OTc2MTk4?cjc=szi5ue3"
         },
         "h3":{
             "fullname":"Mathematics",
             "shortname":"MAT",
             "teacher":"Lulu Farsana C.O",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h4":{
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA3Mzg3NTg0?cjc=qttb4gg"
         },
         "h5":{
             "fullname":"Data Communications & Fiber Optics",
             "shortname":"DCF",
             "teacher":"Arshad PT",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMTg5Njc4ODgw?cjc=76tjoal"
         }
     },
@@ -157,28 +157,28 @@
             "fullname":"Mathematics",
             "shortname":"MAT",
             "teacher":"Lulu Farsana C.O",
-            "platform":"Google Meet",
+            "platform":"Meet",
             "link":"https://meet.google.com/ofc-nbfn-gth"
         },
         "h2":{
             "fullname":"Database Management System",
             "shortname":"DBMS",
             "teacher":"Alka Mohan",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA3Mzg3NTg0?cjc=qttb4gg"
         },
         "h3":{
             "fullname":"Data Communications & Fiber Optics",
             "shortname":"DCF",
             "teacher":"Arshad PT",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMTg5Njc4ODgw?cjc=76tjoal"
         },
         "h4":{
             "fullname":"Statistics",
             "shortname":"STATI",
             "teacher":"Nazreen Moosa",
-            "platform":"Google Classroom",
+            "platform":"Classroom",
             "link":"https://classroom.google.com/c/MjMwMjA5OTc2MTk4?cjc=szi5ue3"
         },
         "h5":{

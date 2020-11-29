@@ -34,7 +34,7 @@
             <p class="teacher" id="todaytech1">Loading....</p>
           </div>
           <div class="col-xs-4 card-right" id="cardright1">
-            <a href="" id="todayLink1"><button class="btn linkbtn" >Join</button></a>
+            <a href="" id="todayLink1"><button class="btn linkbtn" id="b1">Meet</button></a>
           </div>
         </div>
 
@@ -44,7 +44,7 @@
             <p class="teacher" id="todaytech2">Loading....</p>
           </div>
           <div class="col-xs-4 card-right" id="cardright2" >
-            <a href="" id="todayLink2"><button class="btn linkbtn" >Join</button></a>
+            <a href="" id="todayLink2"><button class="btn linkbtn" id="b2">Meet</button></a>
           </div>
         </div>
 
@@ -54,7 +54,7 @@
             <p class="teacher" id="todaytech3">Loading....</p>
           </div>
           <div class="col-xs-4 card-right" id="cardright3" >
-            <a href="" id="todayLink3"><button class="btn linkbtn">Join</button></a>
+            <a href="" id="todayLink3"><button class="btn linkbtn" id="b3">Meet</button></a>
           </div>
         </div>
 
@@ -64,7 +64,7 @@
             <p class="teacher" id="todaytech4">Loading....</p>
           </div>
           <div class="col-xs-4 card-right " id="cardright4" >
-            <a href="" id="todayLink4"><button class="btn linkbtn" >Join</button></a>
+            <a href="" id="todayLink4"><button class="btn linkbtn" id="b4">Meet</button></a>
           </div>
         </div>
 
@@ -74,7 +74,7 @@
             <p class="teacher" id="todaytech5">Loading....</p>
           </div>
           <div class="col-xs-4 card-right" id="cardright5" >
-            <a href="" id="todayLink5"><button class="btn linkbtn" >Join</button></a>
+            <a href="" id="todayLink5"><button class="btn linkbtn" id="b5" >Meet</button></a>
           </div>
         </div>
       </div>
@@ -212,7 +212,7 @@
   <div class="container" id="loading">
     <p style="font-size: 30px;color: white;text-align: center;margin-top: 50%;">Loading..</p>
     <p style="font-size: 30px;color: white;text-align: center;">Please Wait</p>
-
+    <p style="font-size: 18px;color: white;text-align: center;margin-top: 80px;">If taking too long, ckeck your<br> innernet connection</p>
   </div>
 
   <!--javascript-->
@@ -226,7 +226,7 @@
     let day = d.getDay();
     if((day>0)&&(day<6)){
       weekday();
-      getToday(1);      
+      getToday(day);      
     }else{
       holiday();
       getTimetable();
@@ -263,6 +263,21 @@
                 document.getElementById('todaySub5').innerText = data.monday.h5.fullname;
                 document.getElementById('todaytech5').innerText = data.monday.h5.teacher;
                 document.getElementById('todayLink5').setAttribute("href", data.monday.h5.link);
+                if(data.monday.h1.platform == 'Class'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.monday.h2.platform == 'Class'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.monday.h2.platform == 'Class'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.monday.h4.platform == 'Class'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.monday.h5.platform == 'Class'){
+                  document.getElementById('b5').innerText='GC';
+                }
                 break;
       case 2 :  document.getElementById('todaySub1').innerText = data.tuesday.h1.fullname;
                 document.getElementById('todaytech1').innerText = data.tuesday.h1.teacher;
@@ -279,6 +294,21 @@
                 document.getElementById('todaySub5').innerText = data.tuesday.h5.fullname;
                 document.getElementById('todaytech5').innerText = data.tuesday.h5.teacher;
                 document.getElementById('todayLink5').setAttribute("href", data.tuesday.h5.link);
+                if(data.tuesday.h1.platform == 'Class'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.tuesday.h2.platform == 'Class'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.tuesday.h2.platform == 'Class'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.tuesday.h4.platform == 'Class'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.tuesday.h5.platform == 'Class'){
+                  document.getElementById('b5').innerText='GC';
+                }
                 break;
       case 3 :  document.getElementById('todaySub1').innerText = data.wednessday.h1.fullname;
                 document.getElementById('todaytech1').innerText = data.wednessday.h1.teacher;
@@ -295,6 +325,21 @@
                 document.getElementById('todaySub5').innerText = data.wednessday.h5.fullname;
                 document.getElementById('todaytech5').innerText = data.wednessday.h5.teacher;
                 document.getElementById('todayLink5').setAttribute("href", data.wednessday.h5.link);
+                if(data.wednessday.h1.platform == 'Class'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.wednessday.h2.platform == 'Class'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.wednessday.h2.platform == 'Class'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.wednessday.h4.platform == 'Class'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.wednessday.h5.platform == 'Class'){
+                  document.getElementById('b5').innerText='GC';
+                }
                 break;
       case 4 :  document.getElementById('todaySub1').innerText = data.thursday.h1.fullname;
                 document.getElementById('todaytech1').innerText = data.thursday.h1.teacher;
@@ -310,7 +355,23 @@
                 document.getElementById('todayLink4').setAttribute("href", data.thursday.h4.link);
                 document.getElementById('todaySub5').innerText = data.thursday.h5.fullname;
                 document.getElementById('todaytech5').innerText = data.thursday.h5.teacher;
-                document.getElementById('todayLink5').setAttribute("href", data.thursday.h5.link);break;
+                document.getElementById('todayLink5').setAttribute("href", data.thursday.h5.link);
+                if(data.thursday.h1.platform == 'Class'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.thursday.h2.platform == 'Class'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.thursday.h2.platform == 'Class'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.thursday.h4.platform == 'Class'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.thursday.h5.platform == 'Class'){
+                  document.getElementById('b5').innerText='GC';
+                }
+                break;
       case 5 :  document.getElementById('todaySub1').innerText = data.friday.h1.fullname;
                 document.getElementById('todaytech1').innerText = data.friday.h1.teacher;
                 document.getElementById('todayLink1').setAttribute("href", data.friday.h1.link);
@@ -326,6 +387,21 @@
                 document.getElementById('todaySub5').innerText = data.friday.h5.fullname;
                 document.getElementById('todaytech5').innerText = data.friday.h5.teacher;
                 document.getElementById('todayLink5').setAttribute("href", data.friday.h5.link);
+                if(data.friday.h1.platform == 'Class'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.friday.h2.platform == 'Class'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.friday.h2.platform == 'Class'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.friday.h4.platform == 'Class'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.friday.h5.platform == 'Class'){
+                  document.getElementById('b5').innerText='GC';
+                }
                 break;
      }
 
