@@ -1,0 +1,38 @@
+trustees:[
+                {
+                    id:'1',
+                    name:'Dr. Mohamed Ali P (Galfar)',
+                    desg:'Chairman Emeritus, SAFI',
+                    img:'../images/static/trustees/1.jpeg'
+                },
+                {
+                    id:'2',
+                    name:'Dr. Azad Moopen',
+                    desg:'Chairman, SAFI',
+                    img:'../images/static/trustees/2.jpeg'
+                },
+                {
+                    id:'3',
+                    name:'Mr. Ahammed P.K.',
+                    desg:'Vice Chairman, SAFI',
+                    img:'../images/static/trustees/3.jpeg'
+                },
+                {
+                    id:'4',
+                    name:' Mr. Mehaboob M.A.',
+                    desg:'General Secretary, SAFI',
+                    img:'../images/static/trustees/4.jpeg'
+                },
+                {
+                    id:'5',
+                    name:'Dr. Amir Ahmed',
+                    desg:'Secretary, SAFI',
+                    img:'../images/static/trustees/5.jpeg'
+                },
+                {
+                    id:'6',
+                    name:'Mr. Kunhi Mohammed C.P.',
+                    desg:'Treasurer, SAFI',
+                    img:'../images/static/trustees/6.jpeg'
+                }
+            ]
