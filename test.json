@@ -1,4 +1,4 @@
-trustees:[
+{trustees:[
                 {
                     id:'1',
                     name:'Dr. Mohamed Ali P (Galfar)',
@@ -35,4 +35,4 @@ trustees:[
                     desg:'Treasurer, SAFI',
                     img:'../images/static/trustees/6.jpeg'
                 }
-            ]
+            ]}
